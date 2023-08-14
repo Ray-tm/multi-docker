@@ -28,7 +28,7 @@ jobs:
           with:
              context: .
              push: true
-             tags: ramiahm/docker-react:v1
+             tags: ramiahm/multi-con
 
         - name: Generate deployment package
           run: zip -r deploy.zip . -x '*.git*'
